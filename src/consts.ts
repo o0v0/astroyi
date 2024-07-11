@@ -16,12 +16,12 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: 'DOngGU', // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
   author: "Astro-Yi", // required
   avatar: '/avatar.png', // required
-  motto: 'Actions speak louder than words.',
+  motto: '冬菇.',
   url: 'https://astro-yi-nu.vercel.app',
   recentBlogSize: 5,
   archivePageSize: 25,
@@ -144,20 +144,20 @@ export const donate = {
 }
 
 /**
- * Friendship Links Page
- * name {string}
- * url {string}
- * avatar {string}
- * description {string}
- */
+  Friendship Links Page
+  name {string}
+  url {string}
+  avatar {string}
+  description {string}
+ /
 export const friendshipLinks =
   [
-    // {
-    //   name: "Cirry's Blog",
-    //   url: 'https://cirry.cn',
-    //   avatar: "https://cirry.cn/avatar.png",
-    //   description: '前端开发的日常'
-    // },
+     {
+       name: "Cirry's Blog",
+       url: 'https://cirry.cn',
+       avatar: "https://cirry.cn/avatar.png",
+       description: '前端开发的日常'
+     },
   ]
 
 /**
