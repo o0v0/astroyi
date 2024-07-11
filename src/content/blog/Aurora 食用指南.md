@@ -1,6 +1,6 @@
 ---
 title: Aurora 食用指南
-description: Aurora 是一款动漫风格博客主题，由[蝉時雨](https://chanshiyu.gitbook.io/blog)开源
+description: Aurora 是一款动漫风格博客主题，由[蝉時雨]开源
 date: 2024-03-21
 tags: [astro]
 category: astro
