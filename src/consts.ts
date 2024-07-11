@@ -13,12 +13,12 @@
  * beian {string} Chinese policy
  */
 export const site = {
-    title: 'Astro Theme Yi',
+    title: '冬菇',
     favicon: '/favicon.svg',
     description: 'Welcome to my independent blog website! ',
-    author: "xxxxx",
+    author: "冬菇",
     avatar: '/avatar.png',
-    motto: 'Keep moving.',
+    motto: '冬菇.',
     url: 'https://astro-yi-nu.vercel.app',
     recentBlogSize: 5,
     archivePageSize: 25,
