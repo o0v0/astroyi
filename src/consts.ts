@@ -157,12 +157,6 @@ export const friendshipLinks =
       avatar: "https://cirry.cn/avatar.png",
       description: 'frontend development'
     },
-    {
-      name: "Cirry's Blog",
-      url: 'https://cirry.cn',
-      avatar: "https://cirry.cn/avatar.png",
-      description: 'frontend development'
-    },
   ]
 
 /**
