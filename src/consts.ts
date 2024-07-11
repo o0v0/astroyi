@@ -34,7 +34,7 @@ export const site = {
  */
 export const config = {
   busuanzi: false,
-  lang: 'zh-cn', // English: en | 简体中文: zh-cn
+  lang: 'zh', // English: en | 简体中文: zh-cn
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
 }
 
@@ -43,37 +43,37 @@ export const config = {
  */
 export const categories = [
   {
-    name: "Homepage",
+    name: "主页",
     iconClass: "ri-home-4-line",
     href: "/",
   },
   {
-    name: "Blog",
+    name: "博客",
     iconClass: "ri-draft-line",
     href: "/blog/1",
   },
   {
-    name: "Feed",
+    name: "信息流",
     iconClass: "ri-lightbulb-flash-line",
     href: "/feed/1",
   },
   {
-    name: "Archive",
+    name: "档案",
     iconClass: "ri-archive-line",
     href: "/archive/1",
   },
   {
-    name: "Message",
+    name: "消息",
     iconClass: "ri-chat-1-line",
     href: "/message/",
   },
   {
-    name: "Search",
+    name: "搜索",
     iconClass: "ri-search-line",
     href: "/search",
   },
   {
-    name: "More",
+    name: "更多",
     iconClass: "ri-more-fill",
     href: "javascript:void(0);",
     children: [
