@@ -151,14 +151,14 @@ export const donate = {
  * description {string}
  /
 export const friendshipLinks =
-  [
+ // [
     // {
     //   name: "Cirry's Blog",
     //   url: 'https://cirry.cn',
     //   avatar: "https://cirry.cn/avatar.png",
     //   description: '前端开发的日常'
     // },
-  ]
+//  ]
 
 /**
  * Comment Feature
