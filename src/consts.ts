@@ -144,11 +144,11 @@ export const donate = {
 }
 
 /**
-  Friendship Links Page
-  name {string}
-  url {string}
-  avatar {string}
-  description {string}
+ * Friendship Links Page
+ * name {string}
+ * url {string}
+ * avatar {string}
+ * description {string}
  /
 export const friendshipLinks =
   [
