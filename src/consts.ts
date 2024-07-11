@@ -1,6 +1,3 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
 /**
  * title {string} website title
  * favicon {string} website favicon url
@@ -16,41 +13,40 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'DOngGU', // required
-  favicon: '/favicon.svg', // required
-  description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
-  avatar: '/avatar.png', // required
-  motto: '冬菇.',
-  url: 'https://astro-yi-nu.vercel.app',
-  recentBlogSize: 5,
-  archivePageSize: 25,
-  postPageSize: 10,
-  feedPageSize: 20,
-  beian: '',
-}
+    title: 'Astro Theme Yi',
+    favicon: '/favicon.svg',
+    description: 'Welcome to my independent blog website! ',
+    author: "xxxxx",
+    avatar: '/avatar.png',
+    motto: 'Keep moving.',
+    url: 'https://astro-yi-nu.vercel.app',
+    recentBlogSize: 5,
+    archivePageSize: 25,
+    postPageSize: 10,
+    feedPageSize: 20,
+    beian: ''
+  }
 
 /**
- * busuanzi {boolean} link: https://busuanzi.ibruce.info/
- * lang {string} Default website language
+ * busuanzi {boolean} Enable Busuanzi Statistics Functionality
+ * lang {string} Default website language: English
  * codeFoldingStartLines {number}
- * ga {string|false}
  */
 export const config = {
   busuanzi: false,
-  lang: 'zh-cn', // en | zh-cn
+  lang: 'en', // English: en | 简体中文: zh-cn
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
-  ga: false // If you want to integrate with Google Analytics, just enter your GA-ID here.
 }
 
 /**
  * Navigator
- * name {string}
- * iconClass {string} icon style
- * href {string}  link url
- * target {string} optional "_self|_blank" open in current window / open in new window
  */
 export const categories = [
+  {
+    name: "Homepage",
+    iconClass: "ri-home-4-line",
+    href: "/",
+  },
   {
     name: "Blog",
     iconClass: "ri-draft-line",
@@ -69,7 +65,7 @@ export const categories = [
   {
     name: "Message",
     iconClass: "ri-chat-1-line",
-    href: "/message",
+    href: "/message/",
   },
   {
     name: "Search",
@@ -90,7 +86,7 @@ export const categories = [
         name: 'Friends',
         iconClass: 'ri-user-5-line',
         href: '/friends',
-        target: '_self',
+        target: '_self', // _self | _blank
       },
     ]
   }
@@ -121,58 +117,59 @@ export const infoLinks = [
     outlink: 'https://github.com/cirry',
   },
   {
+    icon: 'ri-mail-fill',
+    name: 'xxxxxxx@gmail.com',
+    outlink: 'mailto:xxxxxxx@gmail.com',
+  },
+  {
     icon: 'ri-rss-fill',
     name: 'rss',
-    outlink: 'https://astro-yi-nu.vercel.app/rss.xml',
+    outlink: 'https://xxxxx.com/rss.xml',
   }
 ]
 
 /**
- * donate
+ * Donation feature
+ * Please replace the image and paypal link before use.
  * enable {boolean}
  * tip {string}
- * wechatQRCode: Image addresses should be placed in the public directory.
- * alipayQRCode: Image addresses should be placed in the public directory.
- * paypalUrl {string}
  */
 export const donate = {
   enable: false,
   tip: "Thanks for the coffee !!!☕",
   wechatQRCode: "/WeChatQR.png",
   alipayQRCode: "/AliPayQR.png",
-  paypalUrl: "https://paypal.me/xxxxxxxxxx",
+  paypalUrl: "https://paypal.me/xxxxxxxx",
 }
 
 /**
- * Friendship Links Page
+ * Friends Links Page
  * name {string}
  * url {string}
  * avatar {string}
  * description {string}
- /
+ */
 export const friendshipLinks =
- // [
-    // {
-    //   name: "Cirry's Blog",
-    //   url: 'https://cirry.cn',
-    //   avatar: "https://cirry.cn/avatar.png",
-    //   description: '前端开发的日常'
-    // },
-//  ]
+  [
+    {
+      name: "Cirry's Blog",
+      url: 'https://cirry.cn',
+      avatar: "https://cirry.cn/avatar.png",
+      description: 'frontend development'
+    },
+  ]
 
 /**
  * Comment Feature
  * enable {boolean}
- * type {string} required waline | giscus
+ * type {string} giscus and waline are currently supported.
  * walineConfig.serverUrl {string} server link
- * walineConfig.lang {string} link: https://waline.js.org/guide/features/i18n.html
  * walineConfig.pageSize {number} number of comments per page. default 10
  * walineConfig.wordLimit {number} Comment word s limit. When a single number is filled in, it 's the maximum number of comment words. No limit when set to 0
  * walineConfig.count {number} recent comment numbers
  * walineConfig.pageview {boolean} display the number of page views and comments of the article
  * walineConfig.reaction {string | string[]} Add emoji interaction function to the article
  * walineConfig.requiredMeta {string[]}  Set required fields, default anonymous
- * walineConfig.whiteList {string[]} set some pages not to display reaction
  */
 export const comment = {
   enable: false,
