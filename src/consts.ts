@@ -34,7 +34,7 @@ export const site = {
  */
 export const config = {
   busuanzi: false,
-  lang: 'en', // English: en | 简体中文: zh-cn
+  lang: 'zh-cn', // English: en | 简体中文: zh-cn
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
 }
 
